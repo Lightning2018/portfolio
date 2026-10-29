@@ -27,7 +27,7 @@ Explore selected projects and troubleshooting case studies that demonstrate my t
 
 My portfolio website features my professional background, technical skills, projects, resume, and contact information.
 
-**Live Website:** [Add your GitHub Pages URL here after publishing]
+**Live Website:** https://lightning2018.github.io/portfolio/
 
 ## Career Objective
 
