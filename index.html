@@ -122,12 +122,17 @@
       padding: 28px; box-shadow: var(--shadow); position: relative;
     }
     .avatar {
-      width: 125px; height: 125px; margin: 5px auto 22px;
-      display: grid; place-items: center; border-radius: 35px;
-      background: linear-gradient(145deg, #65a9ff, #7c8cff);
-      color: #081224; font-size: 2.6rem; font-weight: 900;
-      box-shadow: 0 15px 45px rgba(75,130,255,.2);
+    width: 150px;
+    height: 150px;
+    margin: 5px auto 22px;
+    display: block;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 12px;
+    border: 2px solid var(--border);
+    box-shadow: 0 15px 45px rgba(75,130,255,.2);
     }
+    
     .profile-card h3 { text-align: center; font-size: 1.25rem; }
     .profile-card > p { text-align: center; color: var(--muted); font-size: .9rem; }
     .profile-divider { height: 1px; background: var(--border); margin: 23px 0; }
@@ -271,19 +276,30 @@
             maintenance, hardware and software troubleshooting, PC assembly, and user support.
             I enjoy solving technical problems and helping systems run reliably.
           </p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#projects">Explore My Work <span>↘</span></a>
-            <a class="button button-outline" href="#contact">Contact Me</a>
-          </div>
+        <div class="hero-actions">
+  <a class="button button-primary" href="#projects">
+    Explore My Work <span>↘</span>
+  </a>
+
+  <a class="button button-outline" href="#contact">
+    Contact Me
+  </a>
+
+  <a class="button button-outline"
+     href="./Christian-Dagcasin-Resume.pdf"
+     download>
+    ↓ Download Resume
+  </a>
+</div>
           <p class="hero-note">Focused on practical IT support, reliability, and continuous learning.</p>
         </div>
 
-       <aside class="profile-card">
-  <img src="profile.jpg" alt="Christian Dagcasin" class="avatar">
-  <h3>Christian Dagcasin</h3>
-  <p>IT Support | Service Desk</p>
-  <div class="profile-divider"></div>
-  <div class="profile-row">
+        <aside class="profile-card">
+          <img src="profile.jpg" alt="Christian Dagcasin" class="avatar">
+          <h3>Christian Dagcasin</h3>
+          <p>IT Support | Service Desk</p>
+          <div class="profile-divider"></div>
+          <div class="profile-row">
             <span class="symbol">⌘</span>
             <div><small>Education</small><strong>BS Information Technology</strong></div>
           </div>
